@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python generate_captions.py --num_caps 5 --path ../datasets/pokemon/ \

@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=0,1 python train_dual.py --num_gpus 2 --train --logdir ./experiments/CIFAR10-dual --dataset_root ../datasets \
+--dataset CIFAR10 --img_size 32 --batch_size 128 --fid_cache ./stats/cifar10.train.npz --total_steps 780001 \
